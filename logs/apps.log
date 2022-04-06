@@ -1,0 +1,1135 @@
+2021/02/12 17:22:40.789  [I] [log.go:18]  init los success
+2021/02/12 17:22:40.790  [I] [redis.go:47]  init redis connection success
+2021/02/12 17:22:40.791  [I] [mysql.go:63]  init db connection success
+2021/02/12 17:22:40.791  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 17:22:41.067  [I] [parser.go:413]  generate router from comments
+2021/02/12 17:22:41.067  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 17:23:15.473  [I] [base.go:25]  prepare.
+2021/02/12 17:23:55.112  [I] [base.go:25]  prepare.
+2021/02/12 17:23:55.112  [D] [website.go:43]  {
+    "web_name":"1",
+    "web_url":"http://www.baidu.com",
+    "web_desc":"test website",
+    "web_sort":12,
+    "web_status":0,
+    "is_deleted":0
+}
+2021/02/12 17:23:55.113  [E] [website.go:58]  create website err:web name already exists
+2021/02/12 17:24:02.971  [I] [base.go:25]  prepare.
+2021/02/12 17:24:02.971  [D] [website.go:43]  {
+    "web_name":"ashdfkjahsjkfhajkshfjkahjkf",
+    "web_url":"http://www.baidu.com",
+    "web_desc":"test website",
+    "web_sort":12,
+    "web_status":0,
+    "is_deleted":0
+}
+2021/02/12 17:24:02.973  [E] [website.go:64]  create website err:web url already exists
+2021/02/12 17:24:06.397  [I] [base.go:25]  prepare.
+2021/02/12 17:24:06.397  [D] [website.go:43]  {
+    "web_name":"ashdfkjahsjkfhajkshfjkahjkf",
+    "web_url":"http://www.baidu.comasfasfas",
+    "web_desc":"test website",
+    "web_sort":12,
+    "web_status":0,
+    "is_deleted":0
+}
+2021/02/12 17:24:07.574  [I] [base.go:25]  prepare.
+2021/02/12 17:24:07.574  [D] [website.go:43]  {
+    "web_name":"ashdfkjahsjkfhajkshfjkahjkf",
+    "web_url":"http://www.baidu.comasfasfas",
+    "web_desc":"test website",
+    "web_sort":12,
+    "web_status":0,
+    "is_deleted":0
+}
+2021/02/12 17:24:07.575  [E] [website.go:58]  create website err:web name already exists
+2021/02/12 17:24:12.021  [I] [base.go:25]  prepare.
+2021/02/12 17:24:12.021  [D] [website.go:43]  {
+    "web_name":"ashdfsfas",
+    "web_url":"http://www.baidu.comasfasfas",
+    "web_desc":"test website",
+    "web_sort":12,
+    "web_status":0,
+    "is_deleted":0
+}
+2021/02/12 17:24:12.024  [E] [website.go:64]  create website err:web url already exists
+2021/02/12 17:24:16.415  [I] [base.go:25]  prepare.
+2021/02/12 17:24:16.415  [D] [website.go:43]  {
+    "web_name":"ashdfsfas",
+    "web_url":"http://www.baidu.as",
+    "web_desc":"test website",
+    "web_sort":12,
+    "web_status":0,
+    "is_deleted":0
+}
+2021/02/12 17:24:22.736  [I] [base.go:25]  prepare.
+2021/02/12 17:24:22.737  [I] [website.go:108]  page query err:Error 1146: Table 'blog_data.website' doesn't exist
+2021/02/12 17:25:13.359  [I] [log.go:18]  init los success
+2021/02/12 17:25:13.359  [I] [redis.go:47]  init redis connection success
+2021/02/12 17:25:13.360  [I] [mysql.go:63]  init db connection success
+2021/02/12 17:25:13.360  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 17:25:13.602  [I] [parser.go:413]  generate router from comments
+2021/02/12 17:25:13.603  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 17:25:17.104  [I] [base.go:25]  prepare.
+2021/02/12 17:25:17.105  [I] [website.go:108]  page query err:Error 1146: Table 'blog_data.website' doesn't exist
+2021/02/12 17:28:11.110  [I] [log.go:18]  init los success
+2021/02/12 17:28:11.111  [I] [redis.go:47]  init redis connection success
+2021/02/12 17:28:11.111  [I] [mysql.go:63]  init db connection success
+2021/02/12 17:28:11.111  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 17:28:11.354  [I] [parser.go:413]  generate router from comments
+2021/02/12 17:28:11.355  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 17:28:13.945  [I] [base.go:25]  prepare.
+2021/02/12 17:28:13.947  [I] [website.go:108]  page query err:Error 1146: Table 'blog_data.website' doesn't exist
+2021/02/12 17:28:54.212  [I] [log.go:18]  init los success
+2021/02/12 17:28:54.213  [I] [redis.go:47]  init redis connection success
+2021/02/12 17:28:54.214  [I] [mysql.go:63]  init db connection success
+2021/02/12 17:28:54.214  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 17:28:54.449  [I] [parser.go:413]  generate router from comments
+2021/02/12 17:28:54.450  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 17:28:58.340  [I] [base.go:25]  prepare.
+2021/02/12 17:28:58.342  [I] [website.go:108]  page query err:Error 1146: Table 'blog_data.website' doesn't exist
+2021/02/12 17:34:41.215  [I] [log.go:18]  init los success
+2021/02/12 17:34:41.216  [I] [redis.go:47]  init redis connection success
+2021/02/12 17:34:41.217  [I] [mysql.go:67]  init db connection success
+2021/02/12 17:34:41.217  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 17:34:41.456  [I] [parser.go:413]  generate router from comments
+2021/02/12 17:34:41.456  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 17:34:44.442  [I] [base.go:25]  prepare.
+2021/02/12 17:35:18.735  [I] [base.go:25]  prepare.
+2021/02/12 17:35:46.549  [I] [log.go:18]  init los success
+2021/02/12 17:35:46.549  [I] [redis.go:47]  init redis connection success
+2021/02/12 17:35:46.550  [I] [mysql.go:67]  init db connection success
+2021/02/12 17:35:46.550  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 17:35:46.788  [I] [parser.go:413]  generate router from comments
+2021/02/12 17:35:46.789  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 17:35:49.337  [I] [base.go:25]  prepare.
+2021/02/12 17:37:54.653  [I] [log.go:18]  init los success
+2021/02/12 17:37:54.653  [I] [redis.go:47]  init redis connection success
+2021/02/12 17:37:54.654  [I] [mysql.go:67]  init db connection success
+2021/02/12 17:37:54.654  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 17:37:54.913  [I] [parser.go:413]  generate router from comments
+2021/02/12 17:37:54.914  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 17:37:57.049  [I] [base.go:25]  prepare.
+2021/02/12 17:38:49.289  [I] [log.go:18]  init los success
+2021/02/12 17:38:49.290  [I] [redis.go:47]  init redis connection success
+2021/02/12 17:38:49.291  [I] [mysql.go:67]  init db connection success
+2021/02/12 17:38:49.291  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 17:38:49.561  [I] [parser.go:413]  generate router from comments
+2021/02/12 17:38:49.561  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 17:38:52.719  [I] [base.go:25]  prepare.
+2021/02/12 17:41:59.445  [I] [log.go:18]  init los success
+2021/02/12 17:41:59.446  [I] [redis.go:47]  init redis connection success
+2021/02/12 17:41:59.447  [I] [mysql.go:67]  init db connection success
+2021/02/12 17:41:59.447  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 17:41:59.686  [I] [parser.go:413]  generate router from comments
+2021/02/12 17:41:59.687  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 17:42:02.674  [I] [base.go:25]  prepare.
+2021/02/12 17:42:03.997  [I] [base.go:25]  prepare.
+2021/02/12 17:43:54.668  [I] [log.go:18]  init los success
+2021/02/12 17:43:54.669  [I] [redis.go:47]  init redis connection success
+2021/02/12 17:43:54.670  [I] [mysql.go:67]  init db connection success
+2021/02/12 17:43:54.670  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 17:43:54.906  [I] [parser.go:413]  generate router from comments
+2021/02/12 17:43:54.906  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 17:44:01.211  [I] [base.go:25]  prepare.
+2021/02/12 17:45:00.026  [I] [log.go:18]  init los success
+2021/02/12 17:45:00.026  [I] [redis.go:47]  init redis connection success
+2021/02/12 17:45:00.027  [I] [mysql.go:67]  init db connection success
+2021/02/12 17:45:00.027  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 17:45:00.266  [I] [parser.go:413]  generate router from comments
+2021/02/12 17:45:00.267  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 17:45:02.009  [I] [base.go:25]  prepare.
+2021/02/12 17:45:03.010  [I] [base.go:25]  prepare.
+2021/02/12 17:45:04.920  [I] [base.go:25]  prepare.
+2021/02/12 17:47:30.362  [I] [base.go:25]  prepare.
+2021/02/12 17:49:17.986  [I] [log.go:18]  init los success
+2021/02/12 17:49:17.987  [I] [redis.go:47]  init redis connection success
+2021/02/12 17:49:17.988  [I] [mysql.go:67]  init db connection success
+2021/02/12 17:49:17.988  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 17:49:18.226  [I] [parser.go:413]  generate router from comments
+2021/02/12 17:49:18.227  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 17:49:21.228  [I] [base.go:25]  prepare.
+2021/02/12 17:50:15.863  [I] [log.go:18]  init los success
+2021/02/12 17:50:15.864  [I] [redis.go:47]  init redis connection success
+2021/02/12 17:50:15.865  [I] [mysql.go:67]  init db connection success
+2021/02/12 17:50:15.865  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 17:50:16.116  [I] [parser.go:413]  generate router from comments
+2021/02/12 17:50:16.116  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 17:50:18.525  [I] [base.go:25]  prepare.
+2021/02/12 17:50:19.289  [I] [base.go:25]  prepare.
+2021/02/12 17:53:51.542  [I] [log.go:18]  init los success
+2021/02/12 17:53:51.543  [I] [redis.go:47]  init redis connection success
+2021/02/12 17:53:51.543  [I] [mysql.go:67]  init db connection success
+2021/02/12 17:53:51.543  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 17:53:51.790  [I] [parser.go:413]  generate router from comments
+2021/02/12 17:53:51.790  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 17:53:54.419  [I] [base.go:25]  prepare.
+2021/02/12 17:53:56.130  [I] [base.go:25]  prepare.
+2021/02/12 17:54:06.571  [I] [log.go:18]  init los success
+2021/02/12 17:54:06.571  [I] [redis.go:47]  init redis connection success
+2021/02/12 17:54:06.572  [I] [mysql.go:67]  init db connection success
+2021/02/12 17:54:06.572  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 17:54:06.822  [I] [parser.go:413]  generate router from comments
+2021/02/12 17:54:06.822  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 17:54:08.008  [I] [base.go:25]  prepare.
+2021/02/12 17:54:08.810  [I] [base.go:25]  prepare.
+2021/02/12 17:56:50.829  [I] [log.go:18]  init los success
+2021/02/12 17:56:50.829  [I] [redis.go:47]  init redis connection success
+2021/02/12 17:56:50.830  [I] [mysql.go:67]  init db connection success
+2021/02/12 17:56:50.830  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 17:56:51.083  [I] [parser.go:413]  generate router from comments
+2021/02/12 17:56:51.083  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 17:56:52.079  [I] [base.go:25]  prepare.
+2021/02/12 17:56:52.736  [I] [base.go:25]  prepare.
+2021/02/12 17:56:53.732  [I] [base.go:25]  prepare.
+2021/02/12 17:57:12.271  [I] [base.go:25]  prepare.
+2021/02/12 17:57:13.337  [I] [base.go:25]  prepare.
+2021/02/12 17:58:26.488  [I] [log.go:18]  init los success
+2021/02/12 17:58:26.489  [I] [redis.go:47]  init redis connection success
+2021/02/12 17:58:26.489  [I] [mysql.go:67]  init db connection success
+2021/02/12 17:58:26.489  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 17:58:26.748  [I] [parser.go:413]  generate router from comments
+2021/02/12 17:58:26.748  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 17:58:30.454  [I] [base.go:25]  prepare.
+2021/02/12 17:58:31.743  [I] [base.go:25]  prepare.
+2021/02/12 17:58:56.064  [I] [base.go:25]  prepare.
+2021/02/12 17:59:36.136  [I] [base.go:25]  prepare.
+2021/02/12 17:59:50.680  [I] [base.go:25]  prepare.
+2021/02/12 17:59:55.184  [I] [base.go:25]  prepare.
+2021/02/12 17:59:57.651  [I] [base.go:25]  prepare.
+2021/02/12 18:00:05.104  [I] [base.go:25]  prepare.
+2021/02/12 18:00:11.603  [I] [base.go:25]  prepare.
+2021/02/12 18:00:12.448  [I] [base.go:25]  prepare.
+2021/02/12 18:01:20.057  [I] [log.go:18]  init los success
+2021/02/12 18:01:20.057  [I] [redis.go:47]  init redis connection success
+2021/02/12 18:01:20.058  [I] [mysql.go:67]  init db connection success
+2021/02/12 18:01:20.058  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 18:01:20.312  [I] [parser.go:413]  generate router from comments
+2021/02/12 18:01:20.312  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 18:01:21.385  [I] [base.go:25]  prepare.
+2021/02/12 18:01:23.123  [I] [base.go:25]  prepare.
+2021/02/12 18:01:24.518  [I] [base.go:25]  prepare.
+2021/02/12 18:01:26.512  [I] [base.go:25]  prepare.
+2021/02/12 18:01:27.126  [I] [base.go:25]  prepare.
+2021/02/12 18:01:27.626  [I] [base.go:25]  prepare.
+2021/02/12 18:23:46.477  [I] [base.go:25]  prepare.
+2021/02/12 18:23:47.100  [I] [base.go:25]  prepare.
+2021/02/12 18:23:47.573  [I] [base.go:25]  prepare.
+2021/02/12 18:23:47.988  [I] [base.go:25]  prepare.
+2021/02/12 18:23:51.345  [I] [base.go:25]  prepare.
+2021/02/12 20:03:15.778  [I] [log.go:18]  init los success
+2021/02/12 20:03:15.779  [I] [redis.go:47]  init redis connection success
+2021/02/12 20:03:15.780  [I] [mysql.go:66]  init db connection success
+2021/02/12 20:03:15.780  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 20:03:16.051  [I] [parser.go:413]  generate router from comments
+2021/02/12 20:03:16.051  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 20:03:25.630  [I] [base.go:25]  prepare.
+2021/02/12 20:03:25.630  [E] [tag.go:37]  json unmarshal add tag err:unexpected end of JSON input
+2021/02/12 20:03:56.128  [I] [base.go:25]  prepare.
+2021/02/12 20:04:33.949  [I] [base.go:25]  prepare.
+2021/02/12 20:04:39.550  [I] [base.go:25]  prepare.
+2021/02/12 20:04:45.190  [I] [base.go:25]  prepare.
+2021/02/12 20:12:55.975  [I] [log.go:18]  init los success
+2021/02/12 20:12:55.975  [I] [redis.go:47]  init redis connection success
+2021/02/12 20:12:55.976  [I] [mysql.go:66]  init db connection success
+2021/02/12 20:12:55.976  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 20:12:56.244  [I] [parser.go:413]  generate router from comments
+2021/02/12 20:12:56.244  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 20:13:03.029  [I] [base.go:25]  prepare.
+2021/02/12 20:13:16.247  [I] [base.go:25]  prepare.
+2021/02/12 20:13:16.248  [E] [tag.go:80]  update tag info err:tag name already exists
+2021/02/12 20:13:30.858  [I] [base.go:25]  prepare.
+2021/02/12 20:13:53.427  [I] [base.go:25]  prepare.
+2021/02/12 20:14:05.628  [I] [base.go:25]  prepare.
+2021/02/12 20:14:26.459  [I] [base.go:25]  prepare.
+2021/02/12 20:14:31.527  [I] [base.go:25]  prepare.
+2021/02/12 20:14:46.088  [I] [base.go:25]  prepare.
+2021/02/12 20:14:46.088  [E] [tag.go:80]  update tag info err:tag name already exists
+2021/02/12 20:24:26.160  [I] [log.go:18]  init los success
+2021/02/12 20:24:26.160  [I] [redis.go:47]  init redis connection success
+2021/02/12 20:24:26.161  [I] [mysql.go:66]  init db connection success
+2021/02/12 20:24:26.161  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 20:24:26.410  [I] [parser.go:413]  generate router from comments
+2021/02/12 20:24:26.410  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 20:24:38.801  [I] [base.go:25]  prepare.
+2021/02/12 20:25:00.855  [I] [base.go:25]  prepare.
+2021/02/12 20:25:00.855  [E] [tag.go:99]  json unmarshal delete tag err:json: cannot unmarshal number into Go struct field DeleteTag.ids of type string
+2021/02/12 20:25:17.354  [I] [base.go:25]  prepare.
+2021/02/12 20:25:32.362  [I] [base.go:25]  prepare.
+2021/02/12 20:25:43.621  [I] [base.go:25]  prepare.
+2021/02/12 20:25:52.081  [I] [base.go:25]  prepare.
+2021/02/12 20:26:02.811  [I] [base.go:25]  prepare.
+2021/02/12 20:26:57.333  [I] [log.go:18]  init los success
+2021/02/12 20:26:57.334  [I] [redis.go:47]  init redis connection success
+2021/02/12 20:26:57.334  [I] [mysql.go:66]  init db connection success
+2021/02/12 20:26:57.334  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 20:26:57.579  [I] [parser.go:413]  generate router from comments
+2021/02/12 20:26:57.579  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 20:27:12.665  [I] [base.go:25]  prepare.
+2021/02/12 20:27:12.666  [E] [tag.go:123]  delete tag info err:Error 1146: Table 'blog_data.blog_' doesn't exist
+2021/02/12 20:27:41.989  [I] [log.go:18]  init los success
+2021/02/12 20:27:41.990  [I] [redis.go:47]  init redis connection success
+2021/02/12 20:27:41.991  [I] [mysql.go:66]  init db connection success
+2021/02/12 20:27:41.991  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 20:27:42.233  [I] [parser.go:413]  generate router from comments
+2021/02/12 20:27:42.233  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 20:27:46.000  [I] [base.go:25]  prepare.
+2021/02/12 20:32:19.097  [I] [log.go:18]  init los success
+2021/02/12 20:32:19.097  [I] [redis.go:47]  init redis connection success
+2021/02/12 20:32:19.098  [I] [mysql.go:66]  init db connection success
+2021/02/12 20:32:19.098  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 20:32:19.335  [I] [parser.go:413]  generate router from comments
+2021/02/12 20:32:19.336  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 20:32:32.596  [I] [base.go:25]  prepare.
+2021/02/12 20:32:32.597  [E] [tag.go:39]  tag get err:record not found
+2021/02/12 20:32:34.100  [I] [base.go:25]  prepare.
+2021/02/12 20:32:34.101  [E] [tag.go:39]  tag get err:record not found
+2021/02/12 20:32:34.615  [I] [base.go:25]  prepare.
+2021/02/12 20:32:34.615  [E] [tag.go:39]  tag get err:record not found
+2021/02/12 20:32:42.807  [I] [base.go:25]  prepare.
+2021/02/12 20:32:53.772  [I] [base.go:25]  prepare.
+2021/02/12 20:32:53.773  [E] [tag.go:60]  add tag info err:tag name already exists
+2021/02/12 20:32:54.802  [I] [base.go:25]  prepare.
+2021/02/12 20:32:54.802  [E] [tag.go:60]  add tag info err:tag name already exists
+2021/02/12 20:33:00.569  [I] [base.go:25]  prepare.
+2021/02/12 20:33:00.569  [E] [tag.go:39]  tag get err:record not found
+2021/02/12 20:33:09.173  [I] [base.go:25]  prepare.
+2021/02/12 20:33:13.811  [I] [base.go:25]  prepare.
+2021/02/12 20:33:14.541  [I] [base.go:25]  prepare.
+2021/02/12 20:33:15.061  [I] [base.go:25]  prepare.
+2021/02/12 20:33:15.568  [I] [base.go:25]  prepare.
+2021/02/12 20:33:15.937  [I] [base.go:25]  prepare.
+2021/02/12 20:33:17.798  [I] [base.go:25]  prepare.
+2021/02/12 20:33:22.210  [I] [base.go:25]  prepare.
+2021/02/12 20:33:22.609  [I] [base.go:25]  prepare.
+2021/02/12 20:33:23.005  [I] [base.go:25]  prepare.
+2021/02/12 20:43:30.079  [I] [log.go:18]  init los success
+2021/02/12 20:43:30.080  [I] [redis.go:47]  init redis connection success
+2021/02/12 20:43:30.080  [I] [mysql.go:66]  init db connection success
+2021/02/12 20:43:30.080  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 20:43:30.321  [I] [parser.go:413]  generate router from comments
+2021/02/12 20:43:30.321  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 20:43:37.398  [I] [base.go:25]  prepare.
+2021/02/12 20:43:37.399  [I] [tag.go:86]  page query err:Error 1054: Unknown column 'tag_status' in 'where clause'
+2021/02/12 20:45:09.639  [I] [log.go:18]  init los success
+2021/02/12 20:45:09.640  [I] [redis.go:47]  init redis connection success
+2021/02/12 20:45:09.640  [I] [mysql.go:66]  init db connection success
+2021/02/12 20:45:09.640  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 20:45:09.894  [I] [parser.go:413]  generate router from comments
+2021/02/12 20:45:09.894  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 20:45:11.279  [I] [base.go:25]  prepare.
+2021/02/12 20:45:12.434  [I] [base.go:25]  prepare.
+2021/02/12 20:45:13.029  [I] [base.go:25]  prepare.
+2021/02/12 20:45:13.889  [I] [base.go:25]  prepare.
+2021/02/12 20:45:16.993  [I] [base.go:25]  prepare.
+2021/02/12 20:45:16.994  [E] [tag.go:69]  add tag info err:tag name already exists
+2021/02/12 20:45:23.335  [I] [base.go:25]  prepare.
+2021/02/12 20:45:28.065  [I] [base.go:25]  prepare.
+2021/02/12 20:45:30.797  [I] [base.go:25]  prepare.
+2021/02/12 20:50:25.067  [I] [base.go:25]  prepare.
+2021/02/12 20:50:25.743  [I] [base.go:25]  prepare.
+2021/02/12 21:42:33.966  [I] [log.go:18]  init los success
+2021/02/12 21:42:33.966  [I] [redis.go:47]  init redis connection success
+2021/02/12 21:42:33.967  [I] [mysql.go:66]  init db connection success
+2021/02/12 21:42:33.967  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 21:42:34.225  [I] [parser.go:413]  generate router from comments
+2021/02/12 21:42:34.225  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 21:42:43.975  [I] [base.go:25]  prepare.
+2021/02/12 21:43:09.032  [I] [base.go:25]  prepare.
+2021/02/12 21:43:21.326  [I] [base.go:25]  prepare.
+2021/02/12 21:43:31.755  [I] [base.go:25]  prepare.
+2021/02/12 21:43:31.756  [E] [article.go:43]  add article err:title already exists
+2021/02/12 21:43:53.113  [I] [base.go:25]  prepare.
+2021/02/12 21:43:54.802  [I] [base.go:25]  prepare.
+2021/02/12 21:43:54.803  [E] [article.go:43]  add article err:title already exists
+2021/02/12 21:43:57.715  [I] [base.go:25]  prepare.
+2021/02/12 21:43:59.723  [I] [base.go:25]  prepare.
+2021/02/12 21:44:02.158  [I] [base.go:25]  prepare.
+2021/02/12 21:44:34.050  [I] [base.go:25]  prepare.
+2021/02/12 21:44:34.051  [E] [article.go:43]  add article err:title already exists
+2021/02/12 21:44:37.769  [I] [base.go:25]  prepare.
+2021/02/12 21:45:07.548  [I] [base.go:25]  prepare.
+2021/02/12 21:45:07.548  [E] [article.go:30]  json unmarshal add article err:invalid character '}' looking for beginning of object key string
+2021/02/12 21:45:11.458  [I] [base.go:25]  prepare.
+2021/02/12 21:45:11.459  [E] [article.go:43]  add article err:title already exists
+2021/02/12 21:45:14.847  [I] [base.go:25]  prepare.
+2021/02/12 21:45:37.149  [I] [base.go:25]  prepare.
+2021/02/12 21:45:37.150  [E] [article.go:43]  add article err:title already exists
+2021/02/12 21:45:39.518  [I] [base.go:25]  prepare.
+2021/02/12 21:45:41.720  [I] [base.go:25]  prepare.
+2021/02/12 21:45:43.534  [I] [base.go:25]  prepare.
+2021/02/12 21:46:04.928  [I] [base.go:25]  prepare.
+2021/02/12 21:46:07.137  [I] [base.go:25]  prepare.
+2021/02/12 21:46:10.484  [I] [base.go:25]  prepare.
+2021/02/12 21:46:10.484  [E] [article.go:43]  add article err:title already exists
+2021/02/12 21:46:13.551  [I] [base.go:25]  prepare.
+2021/02/12 21:46:16.645  [I] [base.go:25]  prepare.
+2021/02/12 21:46:16.646  [E] [article.go:43]  add article err:title already exists
+2021/02/12 21:46:18.604  [I] [base.go:25]  prepare.
+2021/02/12 21:46:21.980  [I] [base.go:25]  prepare.
+2021/02/12 21:55:10.606  [I] [log.go:18]  init los success
+2021/02/12 21:55:10.607  [I] [redis.go:47]  init redis connection success
+2021/02/12 21:55:10.608  [I] [mysql.go:66]  init db connection success
+2021/02/12 21:55:10.608  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 21:55:10.845  [I] [parser.go:413]  generate router from comments
+2021/02/12 21:55:10.845  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 21:55:18.588  [I] [base.go:25]  prepare.
+2021/02/12 21:55:18.589  [E] [article.go:43]  add article err:title already exists
+2021/02/12 21:55:24.005  [I] [base.go:25]  prepare.
+2021/02/12 21:55:42.083  [I] [base.go:25]  prepare.
+2021/02/12 21:55:48.203  [I] [base.go:25]  prepare.
+2021/02/12 21:55:59.365  [I] [base.go:25]  prepare.
+2021/02/12 21:55:59.366  [E] [article.go:76]  update article err:title already exists
+2021/02/12 21:56:00.568  [I] [base.go:25]  prepare.
+2021/02/12 21:56:00.568  [E] [article.go:76]  update article err:title already exists
+2021/02/12 21:56:00.892  [I] [base.go:25]  prepare.
+2021/02/12 21:56:00.893  [E] [article.go:76]  update article err:title already exists
+2021/02/12 21:56:02.077  [I] [base.go:25]  prepare.
+2021/02/12 21:56:02.078  [E] [article.go:76]  update article err:title already exists
+2021/02/12 21:56:02.772  [I] [base.go:25]  prepare.
+2021/02/12 21:56:02.773  [E] [article.go:76]  update article err:title already exists
+2021/02/12 21:56:05.376  [I] [base.go:25]  prepare.
+2021/02/12 21:56:14.611  [I] [base.go:25]  prepare.
+2021/02/12 21:56:22.848  [I] [base.go:25]  prepare.
+2021/02/12 21:56:23.473  [I] [base.go:25]  prepare.
+2021/02/12 21:56:23.893  [I] [base.go:25]  prepare.
+2021/02/12 21:56:31.342  [I] [base.go:25]  prepare.
+2021/02/12 21:56:42.604  [I] [base.go:25]  prepare.
+2021/02/12 21:57:05.821  [I] [base.go:25]  prepare.
+2021/02/12 21:57:05.821  [E] [article.go:76]  update article err:title already exists
+2021/02/12 21:57:10.599  [I] [base.go:25]  prepare.
+2021/02/12 21:57:16.795  [I] [base.go:25]  prepare.
+2021/02/12 21:57:16.797  [E] [article.go:76]  update article err:title already exists
+2021/02/12 21:57:20.122  [I] [base.go:25]  prepare.
+2021/02/12 22:01:27.141  [I] [log.go:18]  init los success
+2021/02/12 22:01:27.141  [I] [redis.go:47]  init redis connection success
+2021/02/12 22:01:27.142  [I] [mysql.go:66]  init db connection success
+2021/02/12 22:01:27.142  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 22:01:27.405  [I] [parser.go:413]  generate router from comments
+2021/02/12 22:01:27.406  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 22:01:38.650  [I] [base.go:25]  prepare.
+2021/02/12 22:01:38.651  [E] [article.go:95]  json unmarshal delete article err:json: cannot unmarshal number into Go struct field DeleteArticle.ids of type string
+2021/02/12 22:02:08.442  [I] [base.go:25]  prepare.
+2021/02/12 22:02:27.218  [I] [base.go:25]  prepare.
+2021/02/12 22:02:27.778  [I] [base.go:25]  prepare.
+2021/02/12 22:02:29.288  [I] [base.go:25]  prepare.
+2021/02/12 22:02:29.868  [I] [base.go:25]  prepare.
+2021/02/12 22:11:18.712  [I] [log.go:18]  init los success
+2021/02/12 22:11:18.712  [I] [redis.go:47]  init redis connection success
+2021/02/12 22:11:18.713  [I] [mysql.go:66]  init db connection success
+2021/02/12 22:11:18.713  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 22:11:18.970  [I] [parser.go:413]  generate router from comments
+2021/02/12 22:11:18.970  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 22:11:29.572  [I] [base.go:25]  prepare.
+2021/02/12 22:11:29.573  [E] [article.go:136]  article  get err:record not found
+2021/02/12 22:11:30.411  [I] [base.go:25]  prepare.
+2021/02/12 22:11:30.411  [E] [article.go:136]  article  get err:record not found
+2021/02/12 22:11:30.971  [I] [base.go:25]  prepare.
+2021/02/12 22:11:30.972  [E] [article.go:136]  article  get err:record not found
+2021/02/12 22:11:42.077  [I] [base.go:25]  prepare.
+2021/02/12 22:11:42.077  [E] [article.go:136]  article  get err:record not found
+2021/02/12 22:11:49.661  [I] [base.go:25]  prepare.
+2021/02/12 22:11:49.661  [E] [article.go:136]  article  get err:record not found
+2021/02/12 22:11:50.077  [I] [base.go:25]  prepare.
+2021/02/12 22:11:50.077  [E] [article.go:136]  article  get err:record not found
+2021/02/12 22:12:07.013  [I] [base.go:25]  prepare.
+2021/02/12 22:12:08.242  [I] [base.go:25]  prepare.
+2021/02/12 22:12:08.590  [I] [base.go:25]  prepare.
+2021/02/12 22:12:09.040  [I] [base.go:25]  prepare.
+2021/02/12 22:12:09.455  [I] [base.go:25]  prepare.
+2021/02/12 22:12:09.839  [I] [base.go:25]  prepare.
+2021/02/12 22:12:10.221  [I] [base.go:25]  prepare.
+2021/02/12 22:12:16.606  [I] [base.go:25]  prepare.
+2021/02/12 22:12:18.265  [I] [base.go:25]  prepare.
+2021/02/12 22:12:19.494  [I] [base.go:25]  prepare.
+2021/02/12 22:12:23.227  [I] [base.go:25]  prepare.
+2021/02/12 22:12:23.420  [I] [base.go:25]  prepare.
+2021/02/12 22:12:28.669  [I] [base.go:25]  prepare.
+2021/02/12 22:12:31.239  [I] [base.go:25]  prepare.
+2021/02/12 22:24:17.316  [I] [log.go:18]  init los success
+2021/02/12 22:24:17.316  [I] [redis.go:47]  init redis connection success
+2021/02/12 22:24:17.317  [I] [mysql.go:66]  init db connection success
+2021/02/12 22:24:17.317  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 22:24:17.586  [I] [parser.go:413]  generate router from comments
+2021/02/12 22:24:17.586  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 22:24:24.580  [I] [base.go:25]  prepare.
+2021/02/12 22:25:06.093  [I] [base.go:25]  prepare.
+2021/02/12 22:25:06.654  [I] [base.go:25]  prepare.
+2021/02/12 22:25:52.117  [I] [base.go:25]  prepare.
+2021/02/12 22:28:49.443  [I] [log.go:18]  init los success
+2021/02/12 22:28:49.444  [I] [redis.go:47]  init redis connection success
+2021/02/12 22:28:49.445  [I] [mysql.go:66]  init db connection success
+2021/02/12 22:28:49.445  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 22:28:49.690  [I] [parser.go:413]  generate router from comments
+2021/02/12 22:28:49.690  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 22:28:51.592  [I] [base.go:25]  prepare.
+2021/02/12 22:30:58.040  [I] [base.go:25]  prepare.
+2021/02/12 22:32:57.869  [I] [log.go:18]  init los success
+2021/02/12 22:32:57.870  [I] [redis.go:47]  init redis connection success
+2021/02/12 22:32:57.873  [I] [mysql.go:66]  init db connection success
+2021/02/12 22:32:57.873  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 22:32:58.126  [I] [parser.go:413]  generate router from comments
+2021/02/12 22:32:58.127  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 22:33:01.484  [I] [base.go:25]  prepare.
+2021/02/12 22:33:05.455  [I] [base.go:25]  prepare.
+2021/02/12 22:33:05.957  [I] [base.go:25]  prepare.
+2021/02/12 22:33:06.304  [I] [base.go:25]  prepare.
+2021/02/12 22:34:42.861  [I] [log.go:18]  init los success
+2021/02/12 22:34:42.861  [I] [redis.go:47]  init redis connection success
+2021/02/12 22:34:42.862  [I] [mysql.go:66]  init db connection success
+2021/02/12 22:34:42.862  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 22:34:43.110  [I] [parser.go:413]  generate router from comments
+2021/02/12 22:34:43.111  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 22:35:17.173  [I] [log.go:18]  init los success
+2021/02/12 22:35:17.173  [I] [redis.go:47]  init redis connection success
+2021/02/12 22:35:17.174  [I] [mysql.go:66]  init db connection success
+2021/02/12 22:35:17.174  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 22:35:17.417  [I] [parser.go:413]  generate router from comments
+2021/02/12 22:35:17.417  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 22:35:19.198  [I] [base.go:25]  prepare.
+2021/02/12 22:35:20.116  [I] [base.go:25]  prepare.
+2021/02/12 22:36:27.252  [I] [log.go:18]  init los success
+2021/02/12 22:36:27.253  [I] [redis.go:47]  init redis connection success
+2021/02/12 22:36:27.254  [I] [mysql.go:66]  init db connection success
+2021/02/12 22:36:27.254  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 22:36:27.533  [I] [parser.go:413]  generate router from comments
+2021/02/12 22:36:27.534  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 22:36:29.218  [I] [base.go:25]  prepare.
+2021/02/12 22:36:29.220  [I] [article.go:60]  [0xc0000b2e80 0xc0000b3000 0xc0000b3180 0xc0000b3300 0xc0000b3480 0xc0000b3600 0xc0000b3780 0xc0000b3900 0xc0000b3a80 0xc0000b3c80]
+2021/02/12 22:36:42.446  [I] [log.go:18]  init los success
+2021/02/12 22:36:42.446  [I] [redis.go:47]  init redis connection success
+2021/02/12 22:36:42.447  [I] [mysql.go:66]  init db connection success
+2021/02/12 22:36:42.447  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 22:36:42.699  [I] [parser.go:413]  generate router from comments
+2021/02/12 22:36:42.699  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 22:36:43.852  [I] [base.go:25]  prepare.
+2021/02/12 22:36:43.854  [I] [article.go:60]  [0xc0003b0e80 0xc0003b1000 0xc0003b1180 0xc0003b1300 0xc0003b1480 0xc0003b1600 0xc0003b1780 0xc0003b1900 0xc0003b1a80 0xc0003b1c80]
+2021/02/12 22:37:57.637  [I] [log.go:18]  init los success
+2021/02/12 22:37:57.637  [I] [redis.go:47]  init redis connection success
+2021/02/12 22:37:57.638  [I] [mysql.go:66]  init db connection success
+2021/02/12 22:37:57.638  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 22:37:57.959  [I] [parser.go:413]  generate router from comments
+2021/02/12 22:37:57.959  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 22:37:59.308  [I] [base.go:25]  prepare.
+2021/02/12 22:39:26.037  [I] [log.go:18]  init los success
+2021/02/12 22:39:26.038  [I] [redis.go:47]  init redis connection success
+2021/02/12 22:39:26.039  [I] [mysql.go:66]  init db connection success
+2021/02/12 22:39:26.039  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/12 22:39:26.279  [I] [parser.go:413]  generate router from comments
+2021/02/12 22:39:26.279  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/12 22:39:29.197  [I] [base.go:25]  prepare.
+2021/02/14 11:47:34.604  [I] [log.go:18]  init los success
+2021/02/14 11:47:34.604  [I] [redis.go:49]  init redis connection success
+2021/02/14 11:47:34.606  [I] [mysql.go:66]  init db connection success
+2021/02/14 11:47:34.606  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/14 11:47:34.882  [I] [parser.go:413]  generate router from comments
+2021/02/14 11:47:34.883  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/14 11:51:01.746  [I] [log.go:18]  init los success
+2021/02/14 11:51:01.747  [I] [redis.go:49]  init redis connection success
+2021/02/14 11:51:01.748  [I] [mysql.go:66]  init db connection success
+2021/02/14 11:51:01.748  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/14 11:51:01.985  [I] [parser.go:413]  generate router from comments
+2021/02/14 11:51:01.985  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/02/14 22:21:04.650  [I] [log.go:18]  init los success
+2021/02/14 22:21:04.651  [I] [redis.go:49]  init redis connection success
+2021/02/14 22:21:04.654  [I] [mysql.go:66]  init db connection success
+2021/02/14 22:21:04.654  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/02/14 22:21:04.929  [I] [parser.go:413]  generate router from comments
+2021/02/14 22:21:04.929  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/03/02 16:00:03.228  [I] [log.go:18]  init los success
+2021/03/02 16:00:03.229  [I] [redis.go:49]  init redis connection success
+2021/03/02 16:00:03.231  [I] [mysql.go:64]  init db connection success
+2021/03/02 16:00:03.232  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/03/02 16:00:03.492  [I] [parser.go:413]  generate router from comments
+2021/03/02 16:00:03.492  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/03/02 16:00:20.951  [D] [router.go:955]  |      127.0.0.1|[97;43m 404 [0m|    104.561µs| nomatch|[97;44m GET     [0m /  
+2021/03/02 16:00:21.023  [D] [router.go:955]  |      127.0.0.1|[97;43m 404 [0m|    110.803µs| nomatch|[97;44m GET     [0m /favicon.ico
+2021/03/05 23:42:19.143  [I] [log.go:18]  init los success
+2021/03/05 23:42:19.145  [I] [redis.go:49]  init redis connection success
+2021/03/05 23:42:19.146  [I] [mysql.go:64]  init db connection success
+2021/03/05 23:42:19.146  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/03/05 23:42:19.415  [I] [parser.go:413]  generate router from comments
+2021/03/05 23:42:19.415  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/03/11 10:41:47.386  [I] [log.go:18]  init log success
+2021/03/11 10:41:47.387  [I] [redis.go:48]  init redis connection success
+2021/03/11 10:41:47.388  [I] [mysql.go:64]  init db connection success
+2021/03/11 10:41:47.388  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/03/11 10:41:47.695  [I] [parser.go:413]  generate router from comments
+2021/03/11 10:41:47.696  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/03/11 11:20:11.209  [I] [log.go:18]  init log success
+2021/03/11 11:20:11.210  [I] [redis.go:48]  init redis connection success
+2021/03/11 11:20:11.210  [I] [mysql.go:64]  init db connection success
+2021/03/11 11:20:11.210  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/03/11 11:20:11.461  [I] [parser.go:413]  generate router from comments
+2021/03/11 11:20:11.462  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/03/12 18:06:31.198  [I] [log.go:18]  init log success
+2021/03/12 18:06:31.227  [I] [redis.go:48]  init redis connection success
+2021/03/12 18:06:31.228  [I] [mysql.go:64]  init db connection success
+2021/03/12 18:06:31.228  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/03/12 18:06:31.508  [I] [parser.go:413]  generate router from comments
+2021/03/12 18:06:31.508  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/03/12 18:06:43.685  [D] [router.go:955]  |      127.0.0.1|[97;43m 404 [0m|     23.903µs| nomatch|[97;44m GET     [0m /  
+2021/03/19 22:42:03.094  [I] [log.go:18]  init log success
+2021/03/19 22:42:03.094  [I] [redis.go:48]  init redis connection success
+2021/03/19 22:42:03.096  [I] [mysql.go:64]  init db connection success
+2021/03/19 22:42:03.096  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/03/19 22:42:08.979  [I] [parser.go:413]  generate router from comments
+2021/03/19 22:42:08.979  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/03/19 22:48:50.936  [I] [log.go:18]  init log success
+2021/03/19 22:48:50.937  [I] [redis.go:48]  init redis connection success
+2021/03/19 22:48:50.938  [I] [mysql.go:64]  init db connection success
+2021/03/19 22:48:50.938  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/03/19 22:48:51.181  [I] [parser.go:413]  generate router from comments
+2021/03/19 22:48:51.181  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/03/19 22:50:38.283  [I] [log.go:18]  init log success
+2021/03/19 22:50:38.284  [I] [redis.go:48]  init redis connection success
+2021/03/19 22:50:38.285  [I] [mysql.go:64]  init db connection success
+2021/03/19 22:50:38.285  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/03/19 22:50:38.549  [I] [parser.go:413]  generate router from comments
+2021/03/19 22:50:38.550  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/03/19 22:50:41.764  [I] [log.go:18]  init log success
+2021/03/19 22:50:41.765  [I] [redis.go:48]  init redis connection success
+2021/03/19 22:50:41.766  [I] [mysql.go:64]  init db connection success
+2021/03/19 22:50:41.766  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/03/19 22:50:42.010  [I] [parser.go:413]  generate router from comments
+2021/03/19 22:50:42.010  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/03/19 22:51:20.515  [I] [log.go:18]  init log success
+2021/03/19 22:51:20.516  [I] [redis.go:48]  init redis connection success
+2021/03/19 22:51:20.517  [I] [mysql.go:64]  init db connection success
+2021/03/19 22:51:20.517  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/03/19 22:51:20.774  [I] [parser.go:413]  generate router from comments
+2021/03/19 22:51:20.774  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/03/19 22:51:48.494  [I] [log.go:18]  init log success
+2021/03/19 22:51:48.495  [I] [redis.go:48]  init redis connection success
+2021/03/19 22:51:48.496  [I] [mysql.go:64]  init db connection success
+2021/03/19 22:51:48.496  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/03/19 22:51:48.741  [I] [parser.go:413]  generate router from comments
+2021/03/19 22:51:48.741  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/03/19 22:52:02.907  [I] [log.go:18]  init log success
+2021/03/19 22:52:02.908  [I] [redis.go:48]  init redis connection success
+2021/03/19 22:52:02.909  [I] [mysql.go:64]  init db connection success
+2021/03/19 22:52:02.909  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/03/19 22:52:03.193  [I] [parser.go:413]  generate router from comments
+2021/03/19 22:52:03.193  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/03/19 22:52:15.199  [I] [log.go:18]  init log success
+2021/03/19 22:52:15.200  [I] [redis.go:48]  init redis connection success
+2021/03/19 22:52:15.201  [I] [mysql.go:64]  init db connection success
+2021/03/19 22:52:15.201  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/03/19 22:52:15.496  [I] [parser.go:413]  generate router from comments
+2021/03/19 22:52:15.496  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/03/19 22:52:26.261  [I] [log.go:18]  init log success
+2021/03/19 22:52:26.262  [I] [redis.go:48]  init redis connection success
+2021/03/19 22:52:26.263  [I] [mysql.go:64]  init db connection success
+2021/03/19 22:52:26.263  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/03/19 22:52:26.526  [I] [parser.go:413]  generate router from comments
+2021/03/19 22:52:26.527  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/03/19 22:52:30.658  [I] [log.go:18]  init log success
+2021/03/19 22:52:30.659  [I] [redis.go:48]  init redis connection success
+2021/03/19 22:52:30.659  [I] [mysql.go:64]  init db connection success
+2021/03/19 22:52:30.660  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/03/19 22:52:30.924  [I] [parser.go:413]  generate router from comments
+2021/03/19 22:52:30.925  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/03/19 22:53:04.463  [I] [log.go:18]  init log success
+2021/03/19 22:53:04.464  [I] [redis.go:48]  init redis connection success
+2021/03/19 22:53:04.465  [I] [mysql.go:64]  init db connection success
+2021/03/19 22:53:04.465  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/03/19 22:53:04.748  [I] [parser.go:413]  generate router from comments
+2021/03/19 22:53:04.748  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/03/19 22:53:23.196  [I] [log.go:18]  init log success
+2021/03/19 22:53:23.197  [I] [redis.go:48]  init redis connection success
+2021/03/19 22:53:23.198  [I] [mysql.go:64]  init db connection success
+2021/03/19 22:53:23.198  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/03/19 22:53:23.452  [I] [parser.go:413]  generate router from comments
+2021/03/19 22:53:23.452  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/03/19 22:53:38.250  [I] [log.go:18]  init log success
+2021/03/19 22:53:38.251  [I] [redis.go:48]  init redis connection success
+2021/03/19 22:53:38.251  [I] [mysql.go:64]  init db connection success
+2021/03/19 22:53:38.251  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/03/19 22:53:38.515  [I] [parser.go:413]  generate router from comments
+2021/03/19 22:53:38.516  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/03/19 22:53:39.579  [I] [log.go:18]  init log success
+2021/03/19 22:53:39.580  [I] [redis.go:48]  init redis connection success
+2021/03/19 22:53:39.580  [I] [mysql.go:64]  init db connection success
+2021/03/19 22:53:39.580  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/03/19 22:53:39.830  [I] [parser.go:413]  generate router from comments
+2021/03/19 22:53:39.830  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/03/19 22:53:54.321  [I] [log.go:18]  init log success
+2021/03/19 22:53:54.322  [I] [redis.go:48]  init redis connection success
+2021/03/19 22:53:54.323  [I] [mysql.go:64]  init db connection success
+2021/03/19 22:53:54.323  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/03/19 22:53:54.571  [I] [parser.go:413]  generate router from comments
+2021/03/19 22:53:54.571  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/03/19 22:54:09.400  [I] [log.go:18]  init log success
+2021/03/19 22:54:09.401  [I] [redis.go:48]  init redis connection success
+2021/03/19 22:54:09.402  [I] [mysql.go:64]  init db connection success
+2021/03/19 22:54:09.402  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/03/19 22:54:09.651  [I] [parser.go:413]  generate router from comments
+2021/03/19 22:54:09.652  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/03/19 22:54:31.599  [I] [log.go:18]  init log success
+2021/03/19 22:54:31.600  [I] [redis.go:48]  init redis connection success
+2021/03/19 22:54:31.600  [I] [mysql.go:64]  init db connection success
+2021/03/19 22:54:31.600  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/03/19 22:54:31.852  [I] [parser.go:413]  generate router from comments
+2021/03/19 22:54:31.853  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/10/08 10:52:19.116  [I] [log.go:18]  init log success
+2021/10/08 10:52:19.117  [I] [redis.go:48]  init redis connection success
+2021/10/08 10:52:19.120  [I] [mysql.go:64]  init db connection success
+2021/10/08 10:52:19.120  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/10/08 10:52:19.402  [I] [parser.go:413]  generate router from comments
+2021/10/08 10:52:19.402  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/10/08 10:52:24.276  [D] [router.go:955]  |      127.0.0.1|[97;43m 404 [0m|    124.801µs| nomatch|[97;44m GET     [0m /  
+2021/10/08 10:52:24.398  [D] [router.go:955]  |      127.0.0.1|[97;43m 404 [0m|     49.089µs| nomatch|[97;44m GET     [0m /favicon.ico
+2021/12/09 15:55:44.543  [I] [log.go:18]  init log success
+2021/12/09 15:55:44.568  [I] [redis.go:48]  init redis connection success
+2021/12/09 15:55:44.571  [I] [mysql.go:64]  init db connection success
+2021/12/09 15:55:44.572  [I] [main.go:45]  server start at 127.0.0.1:8888
+2021/12/09 15:55:48.957  [I] [parser.go:413]  generate router from comments
+2021/12/09 15:55:48.958  [I] [server.go:241]  http server Running on http://127.0.0.1:8888
+2021/12/09 16:14:38.455  [I] [log.go:18]  init log success
+2021/12/09 16:14:38.456  [I] [redis.go:48]  init redis connection success
+2021/12/09 16:14:38.457  [I] [mysql.go:64]  init db connection success
+2021/12/09 16:14:38.457  [I] [main.go:45]  server start at 127.0.0.1:8080
+2021/12/09 16:14:38.723  [I] [parser.go:413]  generate router from comments
+2021/12/09 16:14:38.724  [I] [server.go:241]  http server Running on http://127.0.0.1:8080
+2021/12/09 16:14:47.809  [I] [log.go:18]  init log success
+2021/12/09 16:14:47.809  [I] [redis.go:48]  init redis connection success
+2021/12/09 16:14:47.810  [I] [mysql.go:64]  init db connection success
+2021/12/09 16:14:47.810  [I] [main.go:45]  server start at 127.0.0.1:8080
+2021/12/09 16:14:48.060  [I] [parser.go:413]  generate router from comments
+2021/12/09 16:14:48.060  [I] [server.go:241]  http server Running on http://127.0.0.1:8080
+2021/12/09 16:16:07.909  [D] [router.go:955]  |      127.0.0.1|[97;43m 404 [0m|    202.521µs| nomatch|[97;46m POST    [0m /api/v1/website/list
+2021/12/09 16:16:15.413  [I] [base.go:25]  prepare.
+2021/12/09 16:17:02.065  [I] [base.go:25]  prepare.
+2021/12/09 16:17:02.070  [I] [website.go:96]  page query err:Error 1054: Unknown column 'id' in 'field list'
+2021/12/09 16:17:10.639  [I] [base.go:25]  prepare.
+2021/12/09 16:17:10.640  [I] [website.go:96]  page query err:Error 1054: Unknown column 'id' in 'field list'
+2021/12/09 16:17:27.077  [I] [base.go:25]  prepare.
+2021/12/09 16:17:27.080  [I] [website.go:96]  page query err:Error 1054: Unknown column 'id' in 'field list'
+2021/12/09 16:17:49.229  [I] [log.go:18]  init log success
+2021/12/09 16:17:49.230  [I] [redis.go:48]  init redis connection success
+2021/12/09 16:17:49.230  [I] [mysql.go:64]  init db connection success
+2021/12/09 16:17:49.230  [I] [main.go:45]  server start at 127.0.0.1:8080
+2021/12/09 16:17:49.481  [I] [parser.go:413]  generate router from comments
+2021/12/09 16:17:49.481  [I] [server.go:241]  http server Running on http://127.0.0.1:8080
+2021/12/09 16:17:54.299  [I] [base.go:25]  prepare.
+2021/12/09 16:17:54.303  [I] [website.go:96]  page query err:Error 1054: Unknown column 'id' in 'field list'
+2021/12/09 16:19:35.469  [I] [log.go:18]  init log success
+2021/12/09 16:19:35.470  [I] [redis.go:48]  init redis connection success
+2021/12/09 16:19:35.471  [I] [mysql.go:64]  init db connection success
+2021/12/09 16:19:35.471  [I] [main.go:45]  server start at 127.0.0.1:8080
+2021/12/09 16:19:35.823  [I] [parser.go:413]  generate router from comments
+2021/12/09 16:19:35.824  [I] [server.go:241]  http server Running on http://127.0.0.1:8080
+2021/12/09 16:19:47.045  [I] [base.go:25]  prepare.
+2021/12/09 16:19:48.842  [I] [base.go:25]  prepare.
+2021/12/09 16:21:37.346  [I] [base.go:25]  prepare.
+2021/12/09 16:21:38.235  [I] [base.go:25]  prepare.
+2021/12/09 16:21:38.938  [I] [base.go:25]  prepare.
+2021/12/09 16:21:52.778  [I] [base.go:25]  prepare.
+2021/12/09 16:21:53.630  [I] [base.go:25]  prepare.
+2021/12/09 16:21:54.384  [I] [base.go:25]  prepare.
+2021/12/09 16:21:55.036  [I] [base.go:25]  prepare.
+2021/12/09 16:21:55.582  [I] [base.go:25]  prepare.
+2021/12/09 16:21:57.030  [I] [base.go:25]  prepare.
+2021/12/09 16:27:29.226  [I] [log.go:18]  init log success
+2021/12/09 16:27:29.226  [I] [redis.go:48]  init redis connection success
+2021/12/09 16:27:29.227  [I] [mysql.go:64]  init db connection success
+2021/12/09 16:27:29.227  [I] [main.go:45]  server start at 127.0.0.1:8080
+2021/12/09 16:27:29.497  [I] [parser.go:413]  generate router from comments
+2021/12/09 16:27:29.497  [I] [server.go:241]  http server Running on http://127.0.0.1:8080
+2021/12/09 16:27:42.287  [I] [base.go:25]  prepare.
+2021/12/09 16:27:43.112  [I] [base.go:25]  prepare.
+2021/12/09 16:27:43.814  [I] [base.go:25]  prepare.
+2021/12/09 16:27:44.281  [I] [base.go:25]  prepare.
+2021/12/09 16:27:44.759  [I] [base.go:25]  prepare.
+2021/12/09 16:27:51.371  [I] [base.go:25]  prepare.
+2021/12/09 16:27:51.923  [I] [base.go:25]  prepare.
+2021/12/09 16:27:52.344  [I] [base.go:25]  prepare.
+2021/12/09 16:27:53.108  [I] [base.go:25]  prepare.
+2021/12/09 16:27:53.486  [I] [base.go:25]  prepare.
+2021/12/09 16:28:56.713  [I] [log.go:18]  init log success
+2021/12/09 16:28:56.714  [I] [redis.go:48]  init redis connection success
+2021/12/09 16:28:56.714  [I] [mysql.go:64]  init db connection success
+2021/12/09 16:28:56.715  [I] [main.go:45]  server start at 127.0.0.1:8080
+2021/12/09 16:28:56.978  [I] [parser.go:413]  generate router from comments
+2021/12/09 16:28:56.978  [I] [server.go:241]  http server Running on http://127.0.0.1:8080
+2021/12/09 16:29:01.332  [I] [base.go:25]  prepare.
+2021/12/09 16:29:02.672  [I] [base.go:25]  prepare.
+2021/12/09 16:29:03.391  [I] [base.go:25]  prepare.
+2021/12/09 16:29:23.596  [I] [base.go:25]  prepare.
+2021/12/09 16:29:38.964  [I] [base.go:25]  prepare.
+2021/12/09 16:29:39.863  [I] [base.go:25]  prepare.
+2021/12/09 16:29:40.608  [I] [base.go:25]  prepare.
+2021/12/09 16:29:41.144  [I] [base.go:25]  prepare.
+2021/12/09 16:29:41.623  [I] [base.go:25]  prepare.
+2021/12/09 16:29:42.128  [I] [base.go:25]  prepare.
+2021/12/09 16:29:42.577  [I] [base.go:25]  prepare.
+2021/12/09 16:30:19.459  [I] [log.go:18]  init log success
+2021/12/09 16:30:19.459  [I] [redis.go:48]  init redis connection success
+2021/12/09 16:30:19.460  [I] [mysql.go:64]  init db connection success
+2021/12/09 16:30:19.460  [I] [main.go:45]  server start at 127.0.0.1:8080
+2021/12/09 16:30:19.704  [I] [parser.go:413]  generate router from comments
+2021/12/09 16:30:19.705  [I] [server.go:241]  http server Running on http://127.0.0.1:8080
+2021/12/09 16:30:26.465  [I] [base.go:25]  prepare.
+2021/12/09 16:30:27.892  [I] [base.go:25]  prepare.
+2021/12/09 16:30:28.638  [I] [base.go:25]  prepare.
+2021/12/09 16:30:29.160  [I] [base.go:25]  prepare.
+2021/12/09 16:30:29.629  [I] [base.go:25]  prepare.
+2021/12/09 16:30:43.320  [I] [base.go:25]  prepare.
+2021/12/09 16:30:44.067  [I] [base.go:25]  prepare.
+2021/12/09 16:36:19.860  [I] [base.go:25]  prepare.
+2021/12/09 16:36:19.861  [I] [website.go:43]  {
+    "slot_no":"T00004001",
+    "project_plan_id":23,
+    "cycle_id": 13
+}
+2021/12/09 16:38:20.040  [I] [base.go:25]  prepare.
+2021/12/09 16:38:20.040  [I] [website.go:43]  {
+    "web_name": "掘金",
+    "web_url": "https://juejin.cn/",
+    "web_desc": "掘金 - 代码不止，掘金不停"
+}
+2021/12/09 16:38:20.043  [E] [website.go:58]  create website err:website name already exists
+2021/12/09 16:40:49.628  [I] [log.go:18]  init log success
+2021/12/09 16:40:49.628  [I] [redis.go:48]  init redis connection success
+2021/12/09 16:40:49.629  [I] [mysql.go:64]  init db connection success
+2021/12/09 16:40:49.629  [I] [main.go:45]  server start at 127.0.0.1:8080
+2021/12/09 16:40:49.955  [I] [parser.go:413]  generate router from comments
+2021/12/09 16:40:49.955  [I] [server.go:241]  http server Running on http://127.0.0.1:8080
+2021/12/09 16:40:56.563  [I] [base.go:25]  prepare.
+2021/12/09 16:40:56.563  [I] [website.go:43]  {
+    "web_name": "掘金",
+    "web_url": "https://juejin.cn/",
+    "web_desc": "掘金 - 代码不止，掘金不停"
+}
+2021/12/09 16:42:47.647  [I] [log.go:18]  init log success
+2021/12/09 16:42:47.648  [I] [redis.go:48]  init redis connection success
+2021/12/09 16:42:47.649  [I] [mysql.go:64]  init db connection success
+2021/12/09 16:42:47.649  [I] [main.go:45]  server start at 127.0.0.1:8080
+2021/12/09 16:42:47.930  [I] [parser.go:413]  generate router from comments
+2021/12/09 16:42:47.931  [I] [server.go:241]  http server Running on http://127.0.0.1:8080
+2021/12/09 16:43:14.245  [I] [base.go:25]  prepare.
+2021/12/09 16:43:14.246  [I] [website.go:43]  {
+    "web_name": "掘金",
+    "web_url": "https://juejin.cn/",
+    "web_desc": "掘金 - 代码不止，掘金不停"
+}
+2021/12/09 16:43:17.439  [I] [base.go:25]  prepare.
+2021/12/09 16:43:17.439  [I] [website.go:43]  {
+    "web_name": "掘金",
+    "web_url": "https://juejin.cn/",
+    "web_desc": "掘金 - 代码不止，掘金不停"
+}
+2021/12/09 16:43:17.440  [E] [website.go:63]  create website err:website url already exists
+2021/12/09 16:44:11.476  [I] [base.go:25]  prepare.
+2021/12/09 16:44:11.476  [I] [website.go:43]  {
+    "web_name": "掘金",
+    "web_url": "https://juejin.cn/",
+    "web_desc": "掘金 - 代码不止，掘金不停"
+}
+2021/12/09 16:44:11.477  [E] [website.go:63]  create website err:website url already exists
+2021/12/09 16:44:11.811  [I] [base.go:25]  prepare.
+2021/12/09 16:44:11.811  [I] [website.go:43]  {
+    "web_name": "掘金",
+    "web_url": "https://juejin.cn/",
+    "web_desc": "掘金 - 代码不止，掘金不停"
+}
+2021/12/09 16:44:11.815  [E] [website.go:63]  create website err:website url already exists
+2021/12/09 16:44:12.516  [I] [base.go:25]  prepare.
+2021/12/09 16:44:12.517  [I] [website.go:43]  {
+    "web_name": "掘金",
+    "web_url": "https://juejin.cn/",
+    "web_desc": "掘金 - 代码不止，掘金不停"
+}
+2021/12/09 16:44:12.519  [E] [website.go:63]  create website err:website url already exists
+2021/12/09 16:46:17.370  [I] [log.go:18]  init log success
+2021/12/09 16:46:17.371  [I] [redis.go:48]  init redis connection success
+2021/12/09 16:46:17.372  [I] [mysql.go:64]  init db connection success
+2021/12/09 16:46:17.372  [I] [main.go:45]  server start at 127.0.0.1:8080
+2021/12/09 16:46:17.656  [I] [parser.go:413]  generate router from comments
+2021/12/09 16:46:17.656  [I] [server.go:241]  http server Running on http://127.0.0.1:8080
+2021/12/09 16:46:25.217  [I] [log.go:18]  init log success
+2021/12/09 16:46:25.218  [I] [redis.go:48]  init redis connection success
+2021/12/09 16:46:25.218  [I] [mysql.go:64]  init db connection success
+2021/12/09 16:46:25.219  [I] [main.go:45]  server start at 127.0.0.1:8080
+2021/12/09 16:46:25.484  [I] [parser.go:413]  generate router from comments
+2021/12/09 16:46:25.484  [I] [server.go:241]  http server Running on http://127.0.0.1:8080
+2021/12/09 16:47:32.911  [I] [base.go:25]  prepare.
+2021/12/09 16:47:34.371  [I] [base.go:25]  prepare.
+2021/12/09 16:48:04.648  [I] [base.go:25]  prepare.
+2021/12/09 16:48:41.727  [I] [base.go:25]  prepare.
+2021/12/09 16:50:29.863  [I] [base.go:25]  prepare.
+2021/12/09 16:51:20.282  [I] [log.go:18]  init log success
+2021/12/09 16:51:20.283  [I] [redis.go:48]  init redis connection success
+2021/12/09 16:51:20.284  [I] [mysql.go:64]  init db connection success
+2021/12/09 16:51:20.284  [I] [main.go:45]  server start at 127.0.0.1:8080
+2021/12/09 16:51:20.549  [I] [parser.go:413]  generate router from comments
+2021/12/09 16:51:20.549  [I] [server.go:241]  http server Running on http://127.0.0.1:8080
+2021/12/09 16:51:23.680  [I] [base.go:25]  prepare.
+2021/12/09 16:51:25.288  [I] [base.go:25]  prepare.
+2021/12/09 16:51:29.124  [I] [base.go:25]  prepare.
+2021/12/09 16:51:29.802  [I] [base.go:25]  prepare.
+2021/12/09 16:52:17.572  [I] [base.go:25]  prepare.
+2021/12/09 16:52:18.235  [I] [base.go:25]  prepare.
+2021/12/09 16:53:10.414  [I] [base.go:25]  prepare.
+2021/12/09 16:54:07.042  [I] [base.go:25]  prepare.
+2021/12/09 16:54:49.981  [I] [base.go:25]  prepare.
+2021/12/09 16:54:49.983  [E] [website.go:124]  website get err:Error 1054: Unknown column 'id' in 'where clause'
+2021/12/09 16:55:32.590  [I] [log.go:18]  init log success
+2021/12/09 16:55:32.591  [I] [redis.go:48]  init redis connection success
+2021/12/09 16:55:32.592  [I] [mysql.go:64]  init db connection success
+2021/12/09 16:55:32.592  [I] [main.go:45]  server start at 127.0.0.1:8080
+2021/12/09 16:55:32.844  [I] [parser.go:413]  generate router from comments
+2021/12/09 16:55:32.845  [I] [server.go:241]  http server Running on http://127.0.0.1:8080
+2021/12/09 16:55:42.151  [I] [base.go:25]  prepare.
+2021/12/09 16:55:44.488  [I] [base.go:25]  prepare.
+2021/12/09 16:55:45.248  [I] [base.go:25]  prepare.
+2021/12/09 16:55:49.403  [I] [base.go:25]  prepare.
+2021/12/09 16:55:49.404  [E] [website.go:124]  website get err:record not found
+2021/12/09 16:55:53.876  [I] [base.go:25]  prepare.
+2021/12/09 16:55:53.877  [E] [website.go:124]  website get err:record not found
+2021/12/09 16:56:33.686  [I] [base.go:25]  prepare.
+2021/12/09 16:56:33.687  [E] [website.go:124]  website get err:record not found
+2021/12/09 16:56:39.381  [I] [base.go:25]  prepare.
+2021/12/09 16:56:41.560  [I] [base.go:25]  prepare.
+2021/12/09 16:56:42.411  [I] [base.go:25]  prepare.
+2021/12/09 16:56:50.181  [I] [base.go:25]  prepare.
+2021/12/09 16:56:50.695  [I] [base.go:25]  prepare.
+2021/12/09 16:56:51.048  [I] [base.go:25]  prepare.
+2021/12/09 16:57:47.900  [I] [base.go:25]  prepare.
+2021/12/09 16:57:48.237  [I] [base.go:25]  prepare.
+2021/12/09 16:58:31.399  [D] [router.go:955]  |      127.0.0.1|[97;43m 404 [0m|     45.533µs| nomatch|[97;41m DELETE  [0m /api/v1/website/1
+2021/12/09 16:58:35.318  [D] [router.go:955]  |      127.0.0.1|[97;43m 404 [0m|     98.403µs| nomatch|[97;41m DELETE  [0m /api/v1/websit
+2021/12/09 16:58:36.717  [D] [router.go:955]  |      127.0.0.1|[97;43m 404 [0m|     22.867µs| nomatch|[97;41m DELETE  [0m /api/v1/websit
+2021/12/09 16:58:37.421  [D] [router.go:955]  |      127.0.0.1|[97;43m 404 [0m|     41.621µs| nomatch|[97;41m DELETE  [0m /api/v1/websit
+2021/12/09 16:58:42.178  [I] [base.go:25]  prepare.
+2021/12/09 16:58:42.178  [I] [website.go:133]  ids:
+2021/12/09 16:59:37.112  [I] [log.go:18]  init log success
+2021/12/09 16:59:37.112  [I] [redis.go:48]  init redis connection success
+2021/12/09 16:59:37.113  [I] [mysql.go:64]  init db connection success
+2021/12/09 16:59:37.113  [I] [main.go:45]  server start at 127.0.0.1:8080
+2021/12/09 16:59:37.432  [I] [parser.go:413]  generate router from comments
+2021/12/09 16:59:37.432  [I] [server.go:241]  http server Running on http://127.0.0.1:8080
+2021/12/09 16:59:47.880  [I] [log.go:18]  init log success
+2021/12/09 16:59:47.882  [I] [redis.go:48]  init redis connection success
+2021/12/09 16:59:47.883  [I] [mysql.go:64]  init db connection success
+2021/12/09 16:59:47.884  [I] [main.go:45]  server start at 127.0.0.1:8080
+2021/12/09 16:59:48.196  [I] [parser.go:413]  generate router from comments
+2021/12/09 16:59:48.196  [I] [server.go:241]  http server Running on http://127.0.0.1:8080
+2021/12/09 17:00:02.146  [I] [base.go:25]  prepare.
+2021/12/09 17:00:02.146  [I] [website.go:133]  ids:1,2
+2021/12/09 17:01:51.087  [I] [base.go:25]  prepare.
+2021/12/09 17:01:51.089  [E] [website.go:163]  update website err:record not found
+2021/12/09 17:03:14.866  [I] [base.go:25]  prepare.
+2021/12/09 17:03:14.868  [E] [website.go:163]  update website err:record not found
+2021/12/09 17:04:17.317  [I] [base.go:25]  prepare.
+2021/12/09 17:04:17.322  [E] [website.go:163]  update website err:Error 1054: Unknown column 'id' in 'where clause'
+2021/12/09 17:04:49.347  [I] [log.go:18]  init log success
+2021/12/09 17:04:49.347  [I] [redis.go:48]  init redis connection success
+2021/12/09 17:04:49.348  [I] [mysql.go:64]  init db connection success
+2021/12/09 17:04:49.348  [I] [main.go:45]  server start at 127.0.0.1:8080
+2021/12/09 17:04:49.609  [I] [parser.go:413]  generate router from comments
+2021/12/09 17:04:49.610  [I] [server.go:241]  http server Running on http://127.0.0.1:8080
+2021/12/09 17:05:00.648  [I] [base.go:25]  prepare.
+2021/12/09 17:05:24.566  [I] [base.go:25]  prepare.
+2021/12/09 17:11:29.307  [I] [base.go:25]  prepare.
+2021/12/09 17:11:29.307  [I] [website.go:43]  {
+    "web_name": "GitHub",
+    "web_url": "https://github.com/",
+    "web_desc": "GitHub"
+}
+2021/12/09 17:14:50.027  [I] [base.go:25]  prepare.
+2021/12/09 17:14:50.028  [I] [website.go:43]  {
+    "web_name": "StackOverflow",
+    "web_url": "https://stackoverflow.com/",
+    "web_desc": "Stack Overflow - Where Developers Learn, Share, & Build Careers"
+}
+2021/12/09 17:17:38.229  [I] [base.go:25]  prepare.
+2021/12/09 17:17:38.229  [I] [website.go:43]  {
+    "web_name": "CSDN",
+    "web_url": "https://www.csdn.net/",
+    "web_desc": "CSDN - 专业开发者社区"
+}
+2021/12/09 17:19:29.297  [I] [base.go:25]  prepare.
+2021/12/09 17:19:29.297  [I] [website.go:43]  {
+    "web_name": "简书",
+    "web_url": "https://www.jianshu.com/",
+    "web_desc": "简书 - 创作你的创作"
+}
+2021/12/09 17:22:27.191  [I] [base.go:25]  prepare.
+2021/12/09 17:22:27.191  [I] [website.go:43]  {
+    "web_name": "知乎",
+    "web_url": "https://www.zhihu.com/",
+    "web_desc": "知乎"
+}
+2021/12/09 17:23:19.041  [I] [base.go:25]  prepare.
+2021/12/09 17:23:19.041  [I] [website.go:43]  {
+    "web_name": "InfoQ",
+    "web_url": "https://www.infoq.cn/",
+    "web_desc": "InfoQ - 促进软件开发及相关领域知识与创新的传播-极客邦"
+}
+2021/12/09 17:24:29.938  [I] [base.go:25]  prepare.
+2021/12/09 17:24:29.938  [I] [website.go:43]  {
+    "web_name": "SegmentFault",
+    "web_url": "https://segmentfault.com/",
+    "web_desc": "SegmentFault 思否"
+}
+2021/12/09 17:25:15.142  [I] [base.go:25]  prepare.
+2021/12/09 17:25:15.142  [I] [website.go:43]  {
+    "web_name": "cnblogs",
+    "web_url": "https://www.cnblogs.com/",
+    "web_desc": "博客园 - 开发者的网上家园"
+}
+2021/12/09 17:29:14.877  [I] [base.go:25]  prepare.
+2021/12/09 17:29:14.877  [I] [website.go:43]  {
+    "web_name": "OSCHINA",
+    "web_url": "https://www.oschina.net",
+    "web_desc": "OSCHINA - 中文开源技术交流社区"
+}
+2021/12/09 17:31:31.352  [I] [base.go:25]  prepare.
+2021/12/09 17:32:50.015  [I] [base.go:25]  prepare.
+2021/12/10 21:34:41.004  [I] [log.go:18]  init log success
+2021/12/10 21:34:41.004  [I] [redis.go:48]  init redis connection success
+2021/12/10 21:34:41.012  [I] [mysql.go:64]  init db connection success
+2021/12/10 21:34:41.012  [I] [main.go:45]  server start at 127.0.0.1:8080
+2021/12/10 21:34:41.369  [I] [parser.go:413]  generate router from comments
+2021/12/10 21:34:41.369  [I] [server.go:241]  http server Running on http://127.0.0.1:8080
+2021/12/10 21:35:50.104  [D] [router.go:955]  |      127.0.0.1|[97;43m 404 [0m|    126.694µs| nomatch|[97;46m POST    [0m /website
+2021/12/10 21:38:27.956  [D] [router.go:955]  |      127.0.0.1|[97;43m 404 [0m|     47.057µs| nomatch|[97;46m POST    [0m /website
+2021/12/10 21:38:32.209  [D] [router.go:955]  |      127.0.0.1|[97;43m 404 [0m|     35.112µs| nomatch|[97;46m POST    [0m /website
+2021/12/10 21:39:40.902  [D] [router.go:955]  |      127.0.0.1|[97;43m 404 [0m|     51.818µs| nomatch|[97;44m GET     [0m /  
+2021/12/10 21:39:41.000  [D] [router.go:955]  |      127.0.0.1|[97;43m 404 [0m|    178.464µs| nomatch|[97;44m GET     [0m /favicon.ico
+2021/12/10 21:40:58.783  [I] [base.go:25]  prepare.
+2021/12/10 21:40:58.783  [I] [website.go:43]  {
+    "web_name": "百度搜索",
+    "web_url": "https://www.baidu.com/",
+    "web_desc": "百度搜索",
+    "web_sort": 200,
+    "web_status": 0,
+    "is_deleted": 0
+}
+2021/12/10 21:40:58.795  [E] [website.go:69]  create website err:Error 1264: Out of range value for column 'web_sort' at row 1
+2021/12/10 21:47:10.674  [I] [base.go:25]  prepare.
+2021/12/10 21:47:10.674  [I] [website.go:43]  {
+    "web_name": "百度搜索",
+    "web_url": "https://www.baidu.com/",
+    "web_desc": "百度搜索",
+    "web_sort": 200,
+    "web_status": 0,
+    "is_deleted": 0
+}
+2021/12/10 21:54:27.842  [I] [base.go:25]  prepare.
+2021/12/10 21:58:17.009  [I] [base.go:25]  prepare.
+2021/12/10 21:58:18.446  [I] [base.go:25]  prepare.
+2021/12/10 21:58:19.488  [I] [base.go:25]  prepare.
+2021/12/10 21:58:57.997  [I] [log.go:18]  init log success
+2021/12/10 21:58:57.998  [I] [redis.go:48]  init redis connection success
+2021/12/10 21:58:57.999  [I] [mysql.go:64]  init db connection success
+2021/12/10 21:58:57.999  [I] [main.go:45]  server start at 127.0.0.1:8080
+2021/12/10 21:58:58.562  [I] [parser.go:413]  generate router from comments
+2021/12/10 21:58:58.564  [I] [server.go:241]  http server Running on http://127.0.0.1:8080
+2021/12/10 21:58:59.772  [I] [base.go:25]  prepare.
+2021/12/10 21:59:01.256  [I] [base.go:25]  prepare.
+2021/12/10 21:59:02.237  [I] [base.go:25]  prepare.
+2021/12/10 22:01:02.096  [I] [log.go:18]  init log success
+2021/12/10 22:01:02.097  [I] [redis.go:48]  init redis connection success
+2021/12/10 22:01:02.097  [I] [mysql.go:64]  init db connection success
+2021/12/10 22:01:02.097  [I] [main.go:45]  server start at 127.0.0.1:8080
+2021/12/10 22:01:02.357  [I] [parser.go:413]  generate router from comments
+2021/12/10 22:01:02.357  [I] [server.go:241]  http server Running on http://127.0.0.1:8080
+2021/12/10 22:01:06.623  [I] [base.go:25]  prepare.
+2021/12/10 22:01:08.155  [I] [base.go:25]  prepare.
+2021/12/10 22:02:16.634  [I] [log.go:18]  init log success
+2021/12/10 22:02:16.635  [I] [redis.go:48]  init redis connection success
+2021/12/10 22:02:16.635  [I] [mysql.go:64]  init db connection success
+2021/12/10 22:02:16.636  [I] [main.go:45]  server start at 127.0.0.1:8080
+2021/12/10 22:02:16.894  [I] [parser.go:413]  generate router from comments
+2021/12/10 22:02:16.894  [I] [server.go:241]  http server Running on http://127.0.0.1:8080
+2021/12/10 22:02:22.421  [I] [base.go:25]  prepare.
+2021/12/10 22:02:24.480  [I] [base.go:25]  prepare.
+2021/12/10 22:02:59.211  [I] [log.go:18]  init log success
+2021/12/10 22:02:59.212  [I] [redis.go:48]  init redis connection success
+2021/12/10 22:02:59.213  [I] [mysql.go:64]  init db connection success
+2021/12/10 22:02:59.213  [I] [main.go:45]  server start at 127.0.0.1:8080
+2021/12/10 22:02:59.596  [I] [parser.go:413]  generate router from comments
+2021/12/10 22:02:59.598  [I] [server.go:241]  http server Running on http://127.0.0.1:8080
+2021/12/10 22:03:00.782  [I] [base.go:25]  prepare.
+2021/12/10 22:04:04.665  [I] [base.go:25]  prepare.
+2021/12/10 22:04:09.096  [I] [base.go:25]  prepare.
+2021/12/10 22:04:10.030  [I] [base.go:25]  prepare.
+2021/12/10 22:04:10.637  [I] [base.go:25]  prepare.
+2021/12/10 22:04:11.034  [I] [base.go:25]  prepare.
+2021/12/10 22:04:49.414  [I] [log.go:18]  init log success
+2021/12/10 22:04:49.415  [I] [redis.go:48]  init redis connection success
+2021/12/10 22:04:49.416  [I] [mysql.go:64]  init db connection success
+2021/12/10 22:04:49.416  [I] [main.go:45]  server start at 127.0.0.1:8080
+2021/12/10 22:04:49.687  [I] [parser.go:413]  generate router from comments
+2021/12/10 22:04:49.687  [I] [server.go:241]  http server Running on http://127.0.0.1:8080
+2021/12/10 22:04:58.956  [I] [base.go:25]  prepare.
+2021/12/10 22:05:00.340  [I] [base.go:25]  prepare.
+2021/12/10 22:05:01.449  [I] [base.go:25]  prepare.
+2021/12/10 22:05:02.086  [I] [base.go:25]  prepare.
+2021/12/10 22:05:02.661  [I] [base.go:25]  prepare.
+2021/12/10 22:05:03.133  [I] [base.go:25]  prepare.
+2021/12/10 22:05:06.376  [I] [base.go:25]  prepare.
+2021/12/10 22:05:09.226  [I] [base.go:25]  prepare.
+2021/12/10 22:05:37.227  [I] [base.go:25]  prepare.
+2021/12/13 09:59:17.614  [I] [log.go:18]  init log success
+2021/12/13 09:59:17.638  [I] [redis.go:48]  init redis connection success
+2021/12/13 09:59:17.650  [I] [mysql.go:64]  init db connection success
+2021/12/13 09:59:17.650  [I] [main.go:45]  server start at 127.0.0.1:8080
+2021/12/13 09:59:17.931  [I] [parser.go:413]  generate router from comments
+2021/12/13 09:59:17.933  [I] [server.go:241]  http server Running on http://127.0.0.1:8080
+2021/12/13 10:00:10.721  [I] [base.go:25]  prepare.
+2021/12/13 10:05:47.778  [I] [base.go:25]  prepare.
+2021/12/13 10:07:06.887  [I] [base.go:25]  prepare.
+2021/12/13 10:09:03.591  [I] [base.go:25]  prepare.
+2021/12/13 10:09:11.378  [I] [base.go:25]  prepare.
+2021/12/13 10:09:12.934  [I] [base.go:25]  prepare.
+2021/12/13 10:09:23.966  [I] [base.go:25]  prepare.
+2021/12/13 10:09:25.316  [I] [base.go:25]  prepare.
+2021/12/13 10:10:19.861  [I] [base.go:25]  prepare.
+2021/12/13 10:10:31.754  [I] [base.go:25]  prepare.
+2021/12/13 10:10:41.443  [I] [base.go:25]  prepare.
+2021/12/13 10:11:05.711  [I] [base.go:25]  prepare.
+2021/12/13 10:11:45.613  [I] [base.go:25]  prepare.
+2021/12/13 10:12:24.967  [I] [base.go:25]  prepare.
+2021/12/13 10:14:00.017  [I] [base.go:25]  prepare.
+2021/12/13 10:14:04.022  [I] [base.go:25]  prepare.
+2021/12/13 10:14:20.262  [I] [base.go:25]  prepare.
+2021/12/13 10:24:32.509  [I] [base.go:25]  prepare.
+2021/12/13 10:24:32.509  [E] [website.go:83]  json unmarshal update website params err:json: cannot unmarshal string into Go struct field UpdateWebsiteReq.web_sort of type int
+2021/12/13 10:28:46.048  [I] [base.go:25]  prepare.
+2021/12/13 10:33:35.968  [I] [base.go:25]  prepare.
+2021/12/13 10:34:36.387  [I] [base.go:25]  prepare.
+2021/12/13 10:38:37.459  [I] [base.go:25]  prepare.
+2021/12/13 10:38:56.830  [I] [base.go:25]  prepare.
+2021/12/13 10:39:02.708  [I] [base.go:25]  prepare.
+2021/12/13 10:39:41.489  [I] [base.go:25]  prepare.
+2021/12/13 10:46:22.115  [I] [base.go:25]  prepare.
+2021/12/13 10:46:22.115  [I] [website.go:133]  ids:1,2
+2021/12/13 10:47:27.211  [I] [base.go:25]  prepare.
+2021/12/13 10:47:27.212  [I] [website.go:133]  ids:1,2
+2021/12/13 10:49:52.486  [I] [base.go:25]  prepare.
+2021/12/13 10:49:52.486  [I] [website.go:133]  ids:1,2
+2021/12/13 10:52:31.493  [I] [base.go:25]  prepare.
+2021/12/13 10:52:31.493  [I] [website.go:133]  ids:1,2
+2021/12/13 10:52:33.365  [I] [base.go:25]  prepare.
+2021/12/13 10:52:33.365  [I] [website.go:133]  ids:1,2
+2021/12/13 10:53:14.021  [I] [base.go:25]  prepare.
+2021/12/13 10:53:14.021  [I] [website.go:133]  ids:1,2
+2021/12/13 10:54:37.948  [I] [log.go:18]  init log success
+2021/12/13 10:54:37.949  [I] [redis.go:48]  init redis connection success
+2021/12/13 10:54:37.951  [I] [mysql.go:64]  init db connection success
+2021/12/13 10:54:37.951  [I] [main.go:45]  server start at 127.0.0.1:8080
+2021/12/13 10:54:38.249  [I] [parser.go:413]  generate router from comments
+2021/12/13 10:54:38.250  [I] [server.go:241]  http server Running on http://127.0.0.1:8080
+2021/12/13 10:56:32.283  [I] [base.go:25]  prepare.
+2021/12/13 10:57:02.246  [I] [base.go:25]  prepare.
+2021/12/13 10:57:15.067  [I] [base.go:25]  prepare.
+2021/12/13 11:02:43.417  [I] [log.go:18]  init log success
+2021/12/13 11:02:43.418  [I] [redis.go:48]  init redis connection success
+2021/12/13 11:02:43.419  [I] [mysql.go:64]  init db connection success
+2021/12/13 11:02:43.419  [I] [main.go:45]  server start at 127.0.0.1:8080
+2021/12/13 11:02:43.677  [I] [parser.go:413]  generate router from comments
+2021/12/13 11:02:43.677  [I] [server.go:241]  http server Running on http://127.0.0.1:8080
