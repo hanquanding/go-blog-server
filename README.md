@@ -1,6 +1,6 @@
 # go-blog-server
 
-使用`Beego2.0`写的博客服务端api服务，数据库操作使用的`GORM1.X`没有使用Beego自带的ORM
+使用`Beego2.0`写的博客服务端api服务，数据库操作使用的`GORM`没有使用Beego自带的ORM
 
 已经实现的模块：
 - 文章信息模块
